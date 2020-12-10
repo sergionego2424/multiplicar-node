@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prueba</title>
+	<style>
+		*{
+			padding:0;
+			margin:0;
+		}		
+		body{
+			background-color: #000;
+		}
+		.estado{
+			padding-top:40px;
+			color:#fff;
+			font-size: 30px;
+			text-align: center;
+		}
+		.botones{
+			margin: 50px 0;
+			width:100%;
+			height:200px;
+		}
+		.botones:hover{
+			box-shadow: 0 0 30px #fff;
+		}
+		.prendido{
+			background-color: green;
+			border:solid 2px green;
+			color:#fff;
+			font-size:40px;
+		}
+		.apagado{
+			background-color: red;
+			border:solid 2px red;
+			color:#fff;
+			font-size:40px;
+		}
+
+	</style>
+</head>
+<body>
+	<h2 id='estado' class='estado'></h2>
+	<button class='botones prendido' id='prendido'>Prendido</button>
+	<button class='botones apagado' id='apagado'>Apagado</button>
+
+	<script src='index.js'></script>
+</body>
+</html>
